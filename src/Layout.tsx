@@ -14,10 +14,7 @@ export function Layout({ children }: { children: ReactNode }) {
       </header>
       <main className="flex-1 pb-16">{children}</main>
       <footer className="py-8 text-sm" style={{ color: 'var(--color-muted)' }}>
-        A personal project. Contact:{' '}
-        <a className="underline" href={`mailto:${site.contactEmail}`}>
-          {site.contactEmail}
-        </a>
+        A personal project in private testing.
       </footer>
     </div>
   )

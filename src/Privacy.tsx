@@ -23,7 +23,6 @@ const sections: [string, string][] = [
     'Disconnecting',
     'You can disconnect Google or HubSpot at any time from the app, which deletes the stored tokens. You can also revoke access from your Google or HubSpot account settings.',
   ],
-  ['Questions', `Write to ${site.contactEmail}.`],
 ]
 
 export function Privacy() {
