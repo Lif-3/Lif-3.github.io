@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "@fontsource-variable/geist";
+@import "@fontsource-variable/sora";
+
+:root {
+  --color-canvas: #ffffff;
+  --color-raised: #f4f5f8;
+  --color-primary: #0e111b;
+  --color-muted: #5d6377;
+  --color-hairline: rgba(14, 17, 27, 0.08);
+  --color-accent: #06b6d4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --color-canvas: #0e111b;
+    --color-raised: #161a26;
+    --color-primary: #ffffff;
+    --color-muted: #9aa0b4;
+    --color-hairline: rgba(255, 255, 255, 0.08);
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--color-canvas);
+  color: var(--color-primary);
+  font-family: 'Geist Variable', ui-sans-serif, system-ui, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'Sora Variable', 'Geist Variable', ui-sans-serif, system-ui, sans-serif;
+}
